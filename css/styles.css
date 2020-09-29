@@ -1,38 +1,50 @@
 *{
     margin: 0;
 }
-header{
-    margin-top: 10px;
-    display: flex;
-    background-color: aquamarine;
+
+body{
+    width: 800px;
     margin: auto;
-
 }
 
-header section ul{
-    margin-top: 10px;
+header{
+    padding: 10px;
     display: flex;
-    text-decoration: none;
-    list-style: none;
+    /* background-color: aquamarine; */
+    margin: auto;
+    width: auto;
+    justify-content: space-between;
 }
 
-header section ul li{
+header nav ul{
+    padding: 0;
+    margin-top: 10px;
+    display: flex;    
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header nav ul li{
     margin-left: 20px;
+    text-align: center;
 }
 
 main{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
 }
 
 main h1{
     text-align: center;
 }
 
+/*main's first secction*/
 .main-product article{
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
     margin: 10px 10px;
+    height: 150px;
+    align-items: center;
 }
 
 .main-product article div{
@@ -44,18 +56,49 @@ main h1{
     margin: auto;
 }
 
+/*main's second secction*/
 .main-services article{
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
     margin: 10px 10px;
+    height: 150px;
+    align-items: center;
+}
+.main-services article div{
+    padding: 10px;
+    width: 200px;
+}
+
+.main-services article figure{
+    margin: auto;
+}
+
+/*main's third secction*/
+.main-new article{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    margin: 10px 10px;
+    margin-bottom: 0;
+    height: 150px;
+}
+
+.main-new h2{
+    margin-left: 12px;
 }
 
 .main-new article{
-    border: 2px solid black;
-    border-radius: 5px;
-    display: flex;
-    margin: 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.last-section{
+    padding: 15px;
+    vertical-align: middle;
+    height: 100px;
 }
 
 footer{
@@ -65,7 +108,9 @@ footer{
 }
 
 footer ul{
+    padding: 17px;
     vertical-align: middle;
+    justify-content: space-between;
     list-style: none;
     display: flex;
 }
