@@ -6,14 +6,14 @@
 
 body{
     margin: auto;
-    width: 70vw;
+    width: 75vw;
 }
 
 header{
+    margin-top: 15px;
     padding: 10px;
     display: flex;
     /* background-color: aquamarine; */
-    margin: auto;
     width: auto;
     justify-content: space-between;
 }
@@ -21,15 +21,20 @@ header{
 header nav ul{
     padding: 0;
     margin-top: 10px;
+    margin-bottom: 5px;
     display: flex;
     flex-wrap: wrap;    
     list-style: none;
-    box-sizing: border-box;
+
 }
 
 header nav ul li{
     margin-left: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(211, 211, 211);
     text-align: center;
+    margin-bottom: 10px;
 }
 
 header nav a{
@@ -87,7 +92,7 @@ main h1{
     border-bottom: 2px solid black;
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 10px;
+    padding: 10px;
     margin-bottom: 0;
     min-height: 150px;
 }
