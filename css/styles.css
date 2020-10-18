@@ -4,10 +4,6 @@
     margin: 0;
 }
 
-body{
-    margin: auto;
-    width: 75vw;
-}
 
 .container{
     display: flex;
@@ -16,7 +12,8 @@ body{
 }
 
 .container img{
-    width: 150px;
+    width: 75px;
+    margin-right: 100px;
 
 }
 
@@ -26,10 +23,9 @@ body{
 }
 
 header{
-    margin-top: 15px;
     padding: 10px;
     display: flex;
-    /* background-color: aquamarine; */
+    background-color: rgb(185, 218, 245);
     width: auto;
     justify-content: space-between;
     
