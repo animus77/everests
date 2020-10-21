@@ -9,47 +9,32 @@ body{
     font-family: 'bree serif';
 }
 
-.container{
-    width: 100%;
+header .container{
+    flex: auto;
+    padding: 10px 20px;
+    background-color: rgb(127, 187, 236);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
-}
-
-.container img{
-    width: 75px;
 }
 
 .container nav{
     border: 1px black solid;
-    margin-right: 1em;
-}
-
-header{
-    padding: 10px;
-    display: flex;
-    background-color: rgb(185, 218, 245);
-    width: auto;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header nav ul{
-    padding: 0;
-    /* margin-top: 10px;
-    margin-bottom: 5px; */
     display: flex;
     flex-wrap: wrap;    
     list-style: none;
+    justify-content: space-around;
+    width: 100%;
 }
 
 header nav ul li{
-    margin-right: 10px;
-    padding: 10px;
-    border-radius: 4px;
-    background-color: rgb(211, 211, 211);
-    text-align: center;
-    /* margin-bottom: 10px; */
+    padding: 5px;
 }
 
 header nav a{
@@ -139,10 +124,11 @@ main h1{
     text-align: center;
 }
 
-.last-section{
-    padding: 15px;
+.last-section p{
+    max-width: 80%;
+    margin: 10px auto;
     vertical-align: middle;
-    height: 100px;
+    height: auto;
 }
 
 footer{
@@ -151,7 +137,7 @@ footer{
 }
 
 footer p{
-    padding: 1em;
+    padding: .5em;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
