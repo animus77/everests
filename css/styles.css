@@ -20,16 +20,16 @@ header .container{
     justify-content: space-between;
 }
 
-.container nav{
+/* .container nav{
     border: 1px black solid;
     justify-content: space-around;
-}
+} */
 
 header nav ul{
     display: flex;
     flex-wrap: wrap;    
     list-style: none;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     width: 100%;
 }
 
@@ -77,9 +77,26 @@ main h1{
     justify-content: space-around;
 }
 
-.main-product article div{
-    padding: 10px;
+.main-product article .title-description{
+    padding: 20px;
+    width: 200px;
+}
+.main-product article .title-description p{
+    padding: 0;
+}
+
+.sells{
+    margin-top: 15px;
+    width: 80%;
+}
+.sells h2{
+    text-align: center;
+}
+
+.main-product figure{
     width: 150px;
+    text-align: center;
+    padding: 5px;
 }
 
 .picture-agua img{
@@ -87,6 +104,10 @@ main h1{
 }
 .picture-hielo img{
     width: 130px;
+}
+
+.main-product p{
+    padding: 10px;
 }
 
 /*main's third secction*/
@@ -116,7 +137,7 @@ main h1{
 }
 
 .main-new article figure{
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     width: auto;
 }
 
@@ -136,9 +157,21 @@ footer{
     height: auto;    
 }
 
-footer p{
-    padding: .5em;
+footer div{
+    text-align: center;
+    width: 80%;
+    padding: 1em;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.lema{
+    padding: 5px;
+    max-width: 80%;
+    margin: 5px auto;
+}
+footer p{
+    padding: 10px;
 }
