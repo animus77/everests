@@ -124,16 +124,24 @@ main h1{
     color: white;
     text-align: left;
 }
+
 .main-new article{
     border: 2px solid black;
     border-radius: 5px;
     max-width: 80%;
     margin: 15px auto;
+    background-color: white;
+}
+
+.main-new article .figures{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 15px;
-    background-color: white;
+}
+
+.main-new h6{
+    text-align: left;
 }
 
 .main-new article figure{
@@ -174,4 +182,45 @@ footer div{
 }
 footer p{
     padding: 10px;
+}
+
+/*seccion de pagina de contacto*/
+
+.contact-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(127, 187, 236);
+}
+
+.contact-section{
+    background-color:  rgba(0, 0, 255, 0.658);
+    max-width: 80%;
+    margin: 15px auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.contact-section h1{
+    text-align: left;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+}
+
+.contact div{
+    /* border: 1px solid black; */
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
 }
